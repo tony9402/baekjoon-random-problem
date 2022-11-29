@@ -3,6 +3,7 @@
 
 .cph/
 *.bin
+*.pem
 
 ### C++ ###
 # Prerequisites
