@@ -1,0 +1,19 @@
+{
+    "name": "Choose Baekjoon Problem",
+    "description": "For Baekjoon Random Problem",
+    "version": "0.0.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+          "matches": ["https://www.acmicpc.net/?", "https://www.acmicpc.net/*"],
+          "all_frames": true,
+          "run_at": "document_start",
+          "js": [
+            "scripts/background.js"
+          ]
+    }],
+    "host_permissions": [
+        "https://www.acmicpc.net/*"
+    ]
+}
+  
